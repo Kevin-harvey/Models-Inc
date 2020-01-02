@@ -1,0 +1,473 @@
+body{
+  font-family: 'Patua One', cursive;
+  font-size:17px;
+  line-height:1.5em;
+  margin:0;
+  padding:0;
+}
+
+img{
+  width:100%;
+}
+
+.container{
+  margin:auto;
+}
+
+/* COMMON CLASSES */
+.primary-text{
+  color:#16bac5;
+}
+
+.primary-background{
+  background:#16bac5;
+}
+
+/* HEADER */
+
+
+/* NAVBAR */
+
+#navbar{
+  text-transform:uppercase;
+}
+
+#navbar li{
+  display:inline;
+  padding-right:20px;
+  list-style:none;
+}
+
+#navbar a{
+  text-decoration:none;
+  color:#888;
+}
+
+#navbar li.current a, #navbar a:hover{
+  color:#16bac5;
+  border-bottom: 3px solid #16bac5;
+  padding-bottom:3px;
+}
+
+/* SHOWCASE */
+#showcase{
+  background:url('../img/showcase.jpg') no-repeat center center;
+  width: 100%;
+  margin-bottom:30px;
+}
+
+#showcase .row{
+  height:600px;
+}
+
+#showcase h1{
+  color: #222;
+  font-size: 2.8rem;
+  margin:0;
+  padding-bottom:5px;
+}
+
+#showcase p{
+  color:#333;
+  margin-top:5px;
+}
+
+#showcase .showcase-content{
+  color:#fff;
+  padding:40px;
+
+}
+
+/* FEATURES */
+#features h3{
+  font-size:24px;
+  margin:0;
+  padding-bottom:10px;
+  font-weight: normal;
+}
+
+#features p{
+  color:#888;
+  margin:0;
+  margin-bottom:40px;
+}
+
+/* INFO */
+
+#info h3{
+  font-size:28px;
+  text-align: left;
+  margin:0;
+  padding-bottom:5px;
+  font-weight: normal;
+}
+
+#info h4{
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
+#info p{
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
+/* Gallery */
+
+#gallery p{
+  color:#888;
+  margin:0;
+  margin-bottom:40px;
+  font-weight: normal;
+}
+
+#gallery h3{
+  font-size:28px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-bottom:5px;
+  font-weight: normal;
+}
+
+/* COMPANY */
+#company{
+  background:#333;
+  color:#fff;
+  padding:10px 0;
+  font-weight: normal;
+}
+
+#company h4{
+  text-transform:uppercase;
+  margin-bottom:0;
+  font-weight: normal;
+}
+
+#company ul{
+  padding:0;
+  list-style:none;
+  line-height:2em;
+}
+
+#company input[type="text"]{
+  padding:7px;
+}
+
+#company button{
+  background:#222;
+  color:#fff;
+  padding:10px;
+  border:0;
+}
+
+/* FOOTER */
+#main-footer{
+  background:#16bac5;
+  color:#fff;
+}
+
+/* ABOUT */
+
+#about{
+  background:url('../img/about.jpg') no-repeat center center;
+  width: 100%;
+  margin-bottom:30px;
+}
+
+#about .row{
+  height:600px;
+}
+
+#about h1{
+  color: #fff;
+  font-size: 2.8rem;
+  margin:0;
+  padding-bottom:5px;
+}
+
+#about p{
+  color:#fff;
+  margin-top:5px;
+}
+
+#about .about-content{
+  color:#fff;
+  padding:40px;
+
+}
+
+/* ABOUT TEXT */
+
+#ab-text{
+  margin-bottom: 20px;
+}
+
+#ab-text h3{
+  font-size:28px;
+  text-align: left;
+  margin:0;
+  padding-bottom:5px;
+  font-weight: normal;
+}
+
+#ab-text p{
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
+/* HISTORY */
+
+#history ul li{
+  background-color: #e6e6e9;
+  padding: 10px 30px;
+  list-style: none;
+}
+
+#history h3{
+  font-size:28px;
+  text-align: left;
+  margin:0;
+  padding-bottom:5px;
+  font-weight: normal;
+}
+
+#history p{
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
+/* CLIENTS */
+#clients h3{
+  font-size:24px;
+  margin-top:5px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+#clients h4{
+  text-transform:uppercase;
+  margin:0;
+  padding: 0;
+  font-weight: normal;
+}
+
+#clients p{
+  color:#888;
+  margin:0;
+  margin-bottom:40px;
+}
+
+/* TESTIMONIALS */
+#test ul li:nth-child(odd){
+  background-color: #e6e6e9;
+  padding: 10px 30px;
+  list-style: none;
+}
+
+#test ul li:nth-child(even){
+  background-color: #fff;
+  padding: 10px 30px;
+  list-style: none;
+}
+
+#test h3{
+  font-size:22px;
+  text-align: left;
+  margin:0;
+  padding-bottom:5px;
+  font-weight: normal;
+}
+
+#test p{
+  font-size: 16px;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 25px;
+  font-weight: normal;
+}
+
+/* SERVICES HEAD */
+#serv-head{
+  background:url('../img/serv-head.jpg') no-repeat center center;
+  width: 100%;
+  margin-bottom:30px;
+}
+
+#serv-head .row{
+  height:600px;
+}
+
+#serv-head h1{
+  color: #333;
+  font-size: 2.8rem;
+  margin:0;
+  padding-bottom:5px;
+}
+
+#serv-head p{
+  color: #fff;
+  margin-top:5px;
+}
+
+#serv-head .serv-head-content{
+  color:#fff;
+  padding:40px;
+
+}
+
+/* GALLERY S */
+#gallery-s{
+  margin-bottom: 15px;
+}
+
+#gallery-s h3{
+  font-size:28px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-bottom:5px;
+  font-weight: normal;
+}
+
+#gallery-s img{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* CONTACT HEAD */
+#con-head{
+  background:url('../img/con-head.jpg') no-repeat center center;
+  width: 100%;
+  margin-bottom:30px;
+}
+
+#con-head .row{
+  height:600px;
+}
+
+#con-head h1{
+  color: #333;
+  font-size: 2.8rem;
+  margin:0;
+  padding-bottom:5px;
+}
+
+#con-head p{
+  color: #fff;
+  margin-top:5px;
+}
+
+#con-head .con-head-content{
+  color:#fff;
+  padding:40px;
+
+}
+
+/* CONTACT INFO */
+#con-info h4{
+  text-transform:uppercase;
+  margin:0;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
+#con-info p{
+  color:black;
+  margin:0;
+  margin-bottom:40px;
+}
+
+#con-map{
+  margin: 20px 0;
+}
+
+/* PAGE */
+#page{
+  margin-bottom:40px;
+}
+
+/* CONTACT */
+.contact form{
+  background:#16bac5;
+  border-radius: 10px;
+  color:#fff;
+  margin-top: 10px;
+  padding:50px 20px;
+}
+
+.contact h2{
+  margin-top: 10px;
+}
+
+.contact form input[type="text"]{
+  width:80%;
+  height:30px;
+  margin-bottom:10px;
+}
+
+.contact form textarea{
+  width:80%;
+  height:100px;
+}
+
+.contact form button{
+  width:80%;
+  margin-top: 10px;
+  padding:10px 10px;
+  border:0;
+  border-radius: 5px;
+  background:#fff;
+  color:#16bac5;
+}
+
+.contact form label{
+  text-transform:uppercase;
+}
+
+.contact ul{
+  background:#16bac5;
+  border-radius: 10px;
+  padding:0;
+  list-style:none;
+  line-height:4em;
+}
+
+.contact li{
+  display: inline;
+  color:#fff;
+  padding:20px;
+}
+
+.contact .fa{
+  padding-right: 15px;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:800px){
+  #showcase h1{
+    font-size:30px;
+  }
+}
+
+@media(max-width:500px){
+  #showcase .showcase-content{
+    padding:40px 10px;
+  }
+}
+
+
+
+
